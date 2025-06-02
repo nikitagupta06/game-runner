@@ -1,6 +1,6 @@
 package com.practice.spring.game_runner.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole{
     public void up(){
         System.out.println("SuperContra up");
     }public void down(){

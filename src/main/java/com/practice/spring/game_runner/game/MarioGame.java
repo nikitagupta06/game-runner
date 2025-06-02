@@ -1,6 +1,6 @@
 package com.practice.spring.game_runner.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
     public void up(){
         System.out.println("Jump");
     }public void down(){
